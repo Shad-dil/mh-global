@@ -39,7 +39,10 @@ const Navbar = () => {
             <Link href="#clients">Clients</Link>
           </li>
           <li>
-            <Link href="#contact">Contact</Link>
+            <Link href="#chooseUs">Why Choose Us</Link>
+          </li>
+          <li>
+            <Link href="#aboutUs">About Us</Link>
           </li>
         </ul>
 
@@ -86,6 +89,7 @@ const Navbar = () => {
           >
             Careers
           </Link>
+
           <Link
             href="#clients"
             onClick={() => setOpen(false)}
@@ -93,12 +97,20 @@ const Navbar = () => {
           >
             Clients
           </Link>
+
           <Link
-            href="#contact"
+            href="#chooseUs"
             onClick={() => setOpen(false)}
             className="block text-lg"
           >
-            Contact
+            Why Choose Us
+          </Link>
+          <Link
+            href="#aboutUs"
+            onClick={() => setOpen(false)}
+            className="block text-lg"
+          >
+            About Us
           </Link>
 
           {/* Call Now (Mobile – Primary CTA) */}

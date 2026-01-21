@@ -42,7 +42,7 @@ const reasons = [
 
 export default function WhyChooseUs() {
   return (
-    <section className="bg-[#eaf3f7] py-20">
+    <section className="bg-[#eaf3f7] py-20" id="chooseUs">
       <div className="max-w-7xl mx-auto px-6">
         <p className="text-teal-500 text-sm font-semibold uppercase tracking-wide mb-2">
           Your trusted partner in workforce management
