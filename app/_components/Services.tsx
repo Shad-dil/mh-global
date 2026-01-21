@@ -29,7 +29,7 @@ const services = [
 
 const ServicesCards = () => {
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-white" id="services">
       <div className="max-w-7xl mx-auto px-6">
         {/* Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
