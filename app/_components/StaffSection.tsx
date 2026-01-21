@@ -14,10 +14,10 @@ const StaffSection = () => {
           If you’re interested in building a rewarding career with us, please
           send your CV to{" "}
           <a
-            href="mailto:hr@rpnstafflink.in"
+            href="mhglobalpvt.ltd022@gmail.com"
             className="font-semibold text-[#0b4f6c] underline"
           >
-            hr@rpnstafflink.in
+            mhglobalpvt.ltd022@gmail.com
           </a>{" "}
           with the subject line{" "}
           <strong>“Career Application – [Your Name]”</strong>. Our HR team will

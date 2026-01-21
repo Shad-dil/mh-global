@@ -5,6 +5,8 @@ import Navbar from "./_components/Navbar";
 import ServicesCards from "./_components/Services";
 import ValuesSection from "./_components/OurValues";
 import CareersPage from "./_components/Carrier";
+import WhyMHGlobal from "./_components/WhyMHGlobal";
+import WhatsAppCTA from "./_components/WhatsAppCTA";
 // import Services from "./_components/services";
 
 export default function Home() {
@@ -16,6 +18,8 @@ export default function Home() {
 
       <ValuesSection />
       <CareersPage />
+      <WhatsAppCTA />
+      <WhyMHGlobal />
     </>
   );
 }

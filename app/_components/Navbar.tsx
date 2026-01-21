@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { FaBars, FaTimes, FaPhoneAlt } from "react-icons/fa";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -10,10 +11,17 @@ const Navbar = () => {
   return (
     <header className="fixed top-0 left-0 w-full z-50">
       {/* Top Bar */}
-      <nav className="flex items-center justify-between px-5 py-4 bg-black/70 text-white">
+      <nav className="flex items-center justify-between px-5 py-4 bg-black/80 text-white">
         {/* Logo */}
         <div className="text-xl font-bold">
-          <Link href="/">RPN Stafflink</Link>
+          <Link href="/">
+            <Image
+              src="/logo-banner.png"
+              alt="MH Global Logo"
+              width={100}
+              height={30}
+            />
+          </Link>
         </div>
 
         {/* Desktop Menu */}
@@ -37,7 +45,7 @@ const Navbar = () => {
 
         {/* Call Now (Desktop) */}
         <a
-          href="tel:+919999999999"
+          href="tel:+919356779714"
           className="hidden md:flex items-center gap-2 bg-teal-500 hover:bg-teal-600 text-white px-6 py-3 rounded-md text-sm font-semibold"
         >
           <FaPhoneAlt />
@@ -56,7 +64,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {open && (
-        <div className="md:hidden bg-black/95 text-white px-6 py-8 space-y-6">
+        <div className="md:hidden bg-black/85 text-white px-6 py-8 space-y-6">
           <Link
             href="#home"
             onClick={() => setOpen(false)}
@@ -95,8 +103,8 @@ const Navbar = () => {
 
           {/* Call Now (Mobile – Primary CTA) */}
           <a
-            href="tel:+919999999999"
-            className="mt-4 flex items-center justify-center gap-2 bg-blue-600 py-4 rounded-md text-lg font-semibold"
+            href="tel:+919356779714"
+            className="mt-4 flex items-center justify-center gap-2 bg-teal-500 py-4 rounded-md text-lg font-semibold"
           >
             <FaPhoneAlt />
             Call Now

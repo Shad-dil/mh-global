@@ -9,16 +9,16 @@ const CareersPage = () => {
       <div className="max-w-6xl mx-auto px-6 py-16">
         {/* Page Title */}
         <h1 className="text-3xl md:text-4xl font-extrabold text-[#0b4f6c] mb-6">
-          Careers at RPN Stafflink
+          Careers at MH-Global
         </h1>
 
         {/* Intro Text */}
         <p className="text-gray-700 leading-relaxed mb-14">
-          At <strong>RPN Stafflink Service Provider Pvt. Ltd.</strong>, we
-          believe that our people are our greatest strength. We are always
-          looking for passionate, talented, and dedicated individuals to join
-          our growing team and contribute to delivering reliable staffing and
-          workforce solutions across industries.
+          At <strong>MH-Global</strong>, we believe that our people are our
+          greatest strength. We are always looking for passionate, talented, and
+          dedicated individuals to join our growing team and contribute to
+          delivering reliable staffing and workforce solutions across
+          industries.
         </p>
 
         {/* Why Work With Us */}

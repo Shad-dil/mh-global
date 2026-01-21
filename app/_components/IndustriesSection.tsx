@@ -42,7 +42,7 @@ const industries = [
 
 export default function IndustriesSection() {
   return (
-    <section className="bg-white py-16 md:hidden sm:block">
+    <section className="bg-white py-16 md:hidden sm:block" id="services">
       <div className="px-5 max-w-5xl mx-auto">
         <p className="text-teal-500 text-sm font-semibold uppercase tracking-wide mb-2">
           Specialized workforce solutions across diverse sectors

@@ -16,7 +16,7 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 flex min-h-screen flex-col items-center justify-center px-6 text-center text-white">
         {/* Headline */}
-        <h1 className="text-3xl md:text-6xl font-extrabold uppercase tracking-wide leading-tight mb-6 text-left">
+        <h1 className="text-3xl md:text-6xl font-extrabold uppercase tracking-wide leading-tight mb-6 text-left md:mr-100">
           <span className="block">“Reliable Manpower</span>
           <span className="block">Solution for Your</span>
           <span className="block">Business Growth”</span>
