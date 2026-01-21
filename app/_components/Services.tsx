@@ -1,4 +1,6 @@
 import React from "react";
+import IndustriesSection from "./IndustriesSection";
+import ServicesOverview from "./ServicesOverview";
 
 const services = [
   {
@@ -60,6 +62,8 @@ const ServicesCards = () => {
           ))}
         </div>
       </div>
+      <IndustriesSection />
+      <ServicesOverview />
     </section>
   );
 };

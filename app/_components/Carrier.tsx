@@ -4,7 +4,7 @@ import ApplicationForm from "./ApplicationForm";
 
 const CareersPage = () => {
   return (
-    <main className="bg-white">
+    <main className="bg-white" id="careers">
       {/* Page Container */}
       <div className="max-w-6xl mx-auto px-6 py-16">
         {/* Page Title */}
