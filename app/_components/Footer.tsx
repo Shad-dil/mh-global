@@ -96,7 +96,7 @@ export default function Footer() {
 
       {/* Bottom Bar */}
       <div className="border-t border-white/20 py-4 text-center text-sm text-gray-300">
-        © {new Date().getFullYear()} Alphaa1 Academy, Darbhanga. <br />
+        © {new Date().getFullYear()} MH-GLOBAL. <br />
         All rights reserved. Designed & developed by{" "}
         <a
           href="https://dilshad.online"
