@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Footer from "./_components/Footer";
+import { Toaster } from "react-hot-toast";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -13,6 +14,9 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "MH-Global",
   description: "Reliable Manpower Solutions ",
+  icons: {
+    icon: "/logo-banner.png",
+  },
 };
 
 export default function RootLayout({
@@ -25,6 +29,7 @@ export default function RootLayout({
       <body className={`${montserrat.variable} antialiased`}>
         {children}
         <Footer />
+        <Toaster position="top-right" reverseOrder={false} />
       </body>
     </html>
   );
