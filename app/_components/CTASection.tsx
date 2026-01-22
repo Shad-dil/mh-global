@@ -29,14 +29,16 @@ export default function CTASection() {
 
           <div className="flex gap-4 flex-wrap">
             <a
-              href="/contact"
+              href="https://wa.me/9356779714?text=Hi%20Sir,%20I%20want%20to%20know%20more."
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-teal-500 text-white px-6 py-3 rounded-md font-semibold hover:bg-teal-600 transition"
             >
               Get Started Today
             </a>
 
             <a
-              href="/about"
+              href="#aboutUs"
               className="border border-teal-500 text-teal-500 px-6 py-3 rounded-md font-semibold hover:bg-teal-500 hover:text-white transition"
             >
               Learn More

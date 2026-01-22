@@ -7,6 +7,7 @@ const jobsLeft = [
   "Biology Faculty",
   "PGT (Post Graduate Teacher)",
   "TGT (Trained Graduate Teacher)",
+  "SIP( School Integrated program) ",
   "Staff Nurse (GNM / B.Sc. Nursing)",
   "Ward Boys",
   "Patient Care Attendants",

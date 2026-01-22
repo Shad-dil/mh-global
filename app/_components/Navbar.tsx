@@ -23,7 +23,9 @@ const Navbar = () => {
             />
           </Link>
         </div>
-
+        <div className="flex justify-center items-center md:hidden text-md font-semibold">
+          M&H GLOBAL SERVICE PROVIDER PVT LTD
+        </div>
         {/* Desktop Menu */}
         <ul className="hidden md:flex items-center gap-8 text-sm font-medium">
           <li>

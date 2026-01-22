@@ -20,8 +20,8 @@ export default function Footer() {
             height={30}
           />
           <p className="text-sm text-gray-200 mb-4">
-            Empowering businesses with complete staffing, recruitment, and
-            workforce solutions.
+            M&H GLOBAL SERVICE PROVIDER PVT LTD 9356779714,72766 52114
+            mhglobalpvt.ltd022@gmail.com
           </p>
 
           <p className="text-sm text-gray-300 mb-6">
