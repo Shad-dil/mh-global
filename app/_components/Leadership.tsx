@@ -49,6 +49,18 @@ export default function LeadershipSection() {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-10">
           {/* Card 1 */}
           <div className="text-center">
+            <div className="relative w-full h-[320px] rounded-2xl overflow-hidden bg-gray-100">
+              <Image
+                src="/team/Ehtesham.jpeg"
+                alt="Er Prince"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <h3 className="text-xl font-semibold text-[#0b4f6c]">Ehtesham</h3>
+            <p className="text-gray-600">CEO</p>
+          </div>
+          <div className="text-center">
             <div className="relative w-full h-[280px] rounded-2xl overflow-hidden mb-5">
               <Image
                 src="/team/prince.jpeg"
