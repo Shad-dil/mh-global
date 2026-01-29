@@ -46,7 +46,7 @@ export default function LeadershipSection() {
         </div>
 
         {/* ================= ROW 2 ================= */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-10">
+        <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-10">
           {/* Card 1 */}
           <div className="text-center">
             <div className="relative w-full h-[320px] rounded-2xl overflow-hidden bg-gray-100">
