@@ -97,7 +97,7 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="border-t border-white/20 py-4 text-center text-sm text-gray-300">
         © {new Date().getFullYear()} MH-GLOBAL. <br />
-        All rights reserved. Designed & developed by{" "}
+        All rights reserved. Designed & developed by <br />
         <a
           href="https://dilshad.online"
           target="_blank"
@@ -105,7 +105,8 @@ export default function Footer() {
           className="text-teal-300 hover:underline"
         >
           Md Dilshad
-        </a>
+        </a>{" "}
+        & Md Kamruddin
       </div>
     </footer>
   );
